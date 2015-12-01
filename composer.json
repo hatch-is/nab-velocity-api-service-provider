@@ -1,0 +1,26 @@
+{
+    "name": "hatch-is/nab-velocity-php-sdk-service-provider",
+    "description": "silex service provider for velocity payment system",
+    "license": "MIT",
+    "version": "0.0.1",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:hatch-is/nab-velocity-api.git"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.2",
+        "hatch-is/nab-velocity-php-sdk": "0.0.2",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+
+    "autoload": {
+        "psr-4": {  
+            "NABVelocity\\": "src"
+        }
+    }
+}
