@@ -11,7 +11,7 @@
     ],
     "require": {
         "silex/silex": "~1.2",
-        "hatch-is/nab-velocity-php-sdk": "0.0.2",
+        "hatch-is/nab-velocity-php-sdk": "~0.0",
         "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
